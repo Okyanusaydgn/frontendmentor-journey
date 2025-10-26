@@ -18,7 +18,7 @@ Users can:
 ## Links
 
 - Solution URL: https://www.frontendmentor.io/solutions/REPLACE
-- Live Site URL: https://REPLACE.netlify.app
+- Live Site URL: https://comfy-mandazi-66d166.netlify.app
 
 ## Built with
 
