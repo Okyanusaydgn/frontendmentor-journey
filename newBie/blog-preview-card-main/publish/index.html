@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Google Fonts: Figtree -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Frontend Mentor | Blog preview card</title>
+  </head>
+
+  <body
+    class="min-h-screen flex items-center justify-center bg-(--color-yellow) text-gray-950font-sans p-6"
+  >
+    <main id="main-content" class="w-full max-w-[384px] sm:max-w-[420px]">
+      <article
+        class="bg-white rounded-xl p-6 shadow-card border border-black/5"
+      >
+        <figure class="mb-6 overflow-hidden rounded-lg">
+          <img
+            src="images/illustration-article.svg"
+            alt=""
+            width="336"
+            height="201"
+            class="block w-full h-auto"
+            decoding="async"
+          />
+        </figure>
+
+        <header class="space-y-3">
+          <div class="space-y-3">
+            <span class="badge block w-fit">Learning</span>
+            <p class="text-preset-3 text-gray-950">
+              Published <time datetime="2023-12-21">21 Dec 2023</time>
+            </p>
+          </div>
+
+          <h2 class="text-preset-1">
+            <a
+              href="#"
+              class="focus-ring rounded-sm transition-colors duration-200 hover:text-outline-yellow hover:text-outline-fallback"
+              >HTML &amp; CSS foundations</a
+            >
+          </h2>
+        </header>
+
+        <p class="mt-3 text-preset-2 text-gray-500">
+          These languages are the backbone of every website, defining structure,
+          content, and presentation.
+        </p>
+
+        <footer class="mt-6 flex items-center gap-3">
+          <img
+            src="images/image-avatar.webp"
+            alt=""
+            width="32"
+            height="32"
+            class="rounded-full"
+            loading="lazy"
+            decoding="async"
+          />
+          <span class="text-preset-3-bold">Greg Hooper</span>
+        </footer>
+      </article>
+    </main>
+
+    <footer
+      class="attribution fixed bottom-4 inset-x-0 text-center text-xs opacity-70"
+    >
+      Challenge by
+      <a
+        href="https://www.frontendmentor.io?ref=challenge"
+        target="_blank"
+        rel="noreferrer noopener"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Okyanus Aydogan</a>.
+    </footer>
+  </body>
+</html>
