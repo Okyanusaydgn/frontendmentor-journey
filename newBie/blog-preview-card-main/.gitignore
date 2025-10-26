@@ -1,0 +1,30 @@
+# --- Design files (FM guidelines) ---
+*.sketch
+*.fig
+*.xd
+
+# --- OS / editor junk ---
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+.history/
+
+# --- Node / package managers ---
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+*.log
+
+# --- Environment files ---
+.env
+.env.*
+*.local
+
+# --- Build outputs (Tailwind CLI) ---
+# If deploying with Netlify/CI, it's recommended to ignore dist entirely.
+dist/
+
+# --- Archives / temporary files ---
+*.zip
