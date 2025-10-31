@@ -10,12 +10,13 @@ Mobile-first layout, smooth hover/press states, and accessible focus outlines.
 - View a clean, centered profile card on all screen sizes
 
 ## Screenshot
-![Screenshot](./assets/design/social-link-screenshot2.png)
+![Screenshot](./design/social-link-screenshot2.png)
 
 
 ## Links
-- **Solution:** [![Solution – Frontend Mentor]()
-- **Live:** [![Live – Netlify](https://astounding-lolly-1931cf.netlify.app)
+[![Solution – Frontend Mentor](https://img.shields.io/badge/Solution-Frontend%20Mentor-3F54A3?logo=frontendmentor&logoColor=white)](https://www.frontendmentor.io/solutions/REPLACE-WITH-YOUR-SOLUTION-URL)
+[![Live – Netlify](https://img.shields.io/badge/Live%20Site-Netlify-00C7B7?logo=netlify&logoColor=white)](https://astounding-lolly-1931cf.netlify.app/)
+
 
 
 
