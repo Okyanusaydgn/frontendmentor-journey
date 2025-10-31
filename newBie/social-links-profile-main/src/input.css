@@ -1,0 +1,59 @@
+@import "tailwindcss";
+@source "../**/*.{html,js,ts,jsx,tsx}";
+
+/* Design tokens */
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, -apple-system, "Segoe UI",
+    Roboto, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+
+  /* Colors (in HSL) */
+  --color-qgreen: hsl(75, 94%, 57%);
+  --color-qwhite: hsl(0, 0%, 100%);
+  --color-qgrey-700: hsl(0, 0%, 20%);
+  --color-qgrey-800: hsl(0, 0%, 12%);
+  --color-qgrey-900: hsl(0, 0%, 8%);
+
+  /* Common radiuses */
+  --radius-card: 0.75rem; /* 12px */
+  --radius-pill: 0.5rem; /* 8px */
+}
+
+/* Base: dark theme + body text settings */
+@layer base {
+  :root {
+    color-scheme: dark;
+  }
+
+  /* Body text: 14px with 150% line-height */
+  body {
+    @apply font-sans bg-qgrey-900 text-qwhite/90 text-[0.875rem] leading-[1.5];
+  }
+}
+
+/* Typography utilities (TOP-LEVEL, outside of @layer base) */
+@utility text-preset-1 {
+  @apply text-[1.5rem]   leading-[1.5] font-bold;
+} /* 24px */
+@utility text-preset-2 {
+  @apply text-[0.875rem] leading-[1.5] font-normal;
+} /* 14px */
+@utility text-preset-2-bold {
+  @apply text-[0.875rem] leading-[1.5] font-bold;
+} /* 14px bold */
+
+/* Optional helpers */
+@utility card {
+  @apply bg-qgrey-800 rounded-[var(--radius-card)] p-6 text-center;
+}
+@utility btn {
+  @apply block w-full rounded-[var(--radius-pill)] py-3
+         bg-qgrey-700 text-qwhite text-preset-2-bold
+         /* smoother transitions */
+         transition-all duration-300 ease-out
+         /* hover / press / focus states */
+         hover:bg-qgreen hover:text-qgrey-900
+         active:scale-[0.98]
+         focus-visible:outline focus-visible:outline-2 focus-visible:outline-qgreen
+         /* respect reduced motion */
+         motion-reduce:transition-none;
+}
