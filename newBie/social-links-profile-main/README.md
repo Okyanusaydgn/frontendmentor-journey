@@ -10,6 +10,8 @@ Mobile-first layout, smooth hover/press states, and accessible focus outlines.
 - View a clean, centered profile card on all screen sizes
 
 ## Screenshot
+![Screenshot](./assets/design/social-link-screenshot2.png)
+
 
 ## Links
 - **Solution:** [![Solution – Frontend Mentor]()
