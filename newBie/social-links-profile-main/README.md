@@ -12,9 +12,10 @@ Mobile-first layout, smooth hover/press states, and accessible focus outlines.
 ## Screenshot
 
 ## Links
+- **Solution:** [![Solution – Frontend Mentor]()
+- **Live:** [![Live – Netlify](https://astounding-lolly-1931cf.netlify.app)
 
-- **Solution:** https://www.frontendmentor.io/solutions/REPLACE
-- **Live:** REPLACE (Netlify)
+
 
 ## Built with
 
