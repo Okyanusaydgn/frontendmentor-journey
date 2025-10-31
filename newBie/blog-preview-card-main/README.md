@@ -11,8 +11,9 @@ Users can:
 ![Screenshot](./assets/images/blog-preview-card-picture.png)
 
 ## Links
-- **Solution:** https://www.frontendmentor.io/solutions/REPLACE  
+- **Solution:** [![Solution – Frontend Mentor](https://img.shields.io/badge/Solution-Frontend%20Mentor-3F54A3?logo=frontendmentor&logoColor=white)](https://www.frontendmentor.io/solutions/blog-preview-card-i0Uf3IBkAx)
 - **Live:** [![Live – Netlify](https://img.shields.io/badge/Live%20Site-Netlify-00C7B7?logo=netlify&logoColor=white)](https://comfy-mandazi-66d166.netlify.app)
+
 
 ## Built with
 - Semantic **HTML5**
