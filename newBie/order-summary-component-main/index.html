@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Tailwind path -->
+    <link rel="stylesheet" href="./public/styles.css" />
+    <title>Frontend Mentor | Order summary card</title>
+  </head>
+  <body class="min-h-screen flex items-center justify-center font-sans">
+    <main
+      class="bg-white rounded-[20px] shadow-lg shadow-blue-950/10 w-[90%] max-w-[400px]"
+    >
+      <div class="flex flex-col">
+        <div class="rounded-t-[20px] overflow-hidden">
+          <img
+            src="./images/illustration-hero.svg"
+            alt="Music illustration"
+            class="w-full"
+          />
+          <section class="p-6 text-center">
+            <h1 class="text-preset-1 text-blue-950 mb-3">Order Summary</h1>
+            <p
+              class="text-preset-4-medium text-gray-600 leading-[1.7] max-w-[280px] mx-auto"
+            >
+              You can now listen to millions of songs, audiobooks, and podcasts
+              on any device anywhere you like!
+            </p>
+          </section>
+          <div
+            class="bg-blue-50 rounded-xl flex items-center justify-between p-4 mx-6 mt-2"
+          >
+            <div class="flex items-center gap-4">
+              <img src="./images/icon-music.svg" alt="music icon" />
+              <div class="text-left">
+                <p class="text-preset-4-bold text-blue-950">Annual Plan</p>
+                <p class="text-preset-4-medium text-gray-600">$59.99/year</p>
+              </div>
+            </div>
+
+            <a
+              href="#"
+              class="text-preset-4-bold text-blue-700 hover:opacity-80"
+              >Change</a
+            >
+          </div>
+          <div class="flex flex-col gap-4 mt-6 mx-6 mb-8">
+            <button
+              class="bg-blue-700 text-white text-preset-4-bold py-3 rounded-xl shadow-md hover:opacity-90 transition"
+            >
+              Proceed to Payment
+            </button>
+
+            <a
+              href="#"
+              class="text-preset-4-bold text-gray-600 hover:text-blue-950 transition text-center block"
+              >Cancel Order</a
+            >
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer
+      class="attribution fixed bottom-4 inset-x-0 text-center text-xs opacity-70"
+    >
+      Challenge by
+      <a
+        href="https://www.frontendmentor.io?ref=challenge"
+        target="_blank"
+        rel="noreferrer noopener"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Okyanus Aydogan</a>.
+    </footer>
+  </body>
+</html>
