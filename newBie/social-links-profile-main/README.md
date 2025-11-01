@@ -14,8 +14,9 @@ Mobile-first layout, smooth hover/press states, and accessible focus outlines.
 
 
 ## Links
-[![Solution – Frontend Mentor](https://img.shields.io/badge/Solution-Frontend%20Mentor-3F54A3?logo=frontendmentor&logoColor=white)](https://www.frontendmentor.io/solutions/REPLACE-WITH-YOUR-SOLUTION-URL)
+[![Solution – Frontend Mentor](https://img.shields.io/badge/Solution-Frontend%20Mentor-3F54A3?logo=frontendmentor&logoColor=white)](https://www.frontendmentor.io/solutions/social-links-profile-page-using-html-and-css-responsive-design-X8ta5uE28r)  
 [![Live – Netlify](https://img.shields.io/badge/Live%20Site-Netlify-00C7B7?logo=netlify&logoColor=white)](https://astounding-lolly-1931cf.netlify.app/)
+
 
 
 
