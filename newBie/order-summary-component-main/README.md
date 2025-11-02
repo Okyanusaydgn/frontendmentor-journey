@@ -17,22 +17,17 @@ A minimal yet refined card layout showing an order summary, pricing plan, and in
 - Subtle shadows & spacing system for card layout
 - Pixel-aligned to Figma reference
 
-## 🖼️ Screenshots
 
-> Replace the image paths with your own.
+## Screenshot🖼️
+![Screenshot](./assets/images/blog-preview-card-picture.png)
 
-### Desktop
 
-![Desktop Preview](./design/order-summary-screenshot-desktop.png)
-
-### Mobile
-
-![Mobile Preview](./design/order-summary-screenshot-mobile.png)
 
 ## 🔗 Links
 
-[![Solution – Frontend Mentor](https://img.shields.io/badge/Solution-Frontend%20Mentor-3F54A3?logo=frontendmentor&logoColor=white)](https://www.frontendmentor.io/solutions/REPLACE-WITH-YOUR-SOLUTION-URL)  
-[![Live – Netlify](https://img.shields.io/badge/Live%20Site-Netlify-00C7B7?logo=netlify&logoColor=white)](https://REPLACE-WITH-YOUR-NETLIFY-LINK.netlify.app)
+## Links
+- **Solution:** [![Solution – Frontend Mentor](https://img.shields.io/badge/Solution-Frontend%20Mentor-3F54A3?logo=frontendmentor&logoColor=white)]()
+- **Live:** [![Live – Netlify](https://img.shields.io/badge/Live%20Site-Netlify-00C7B7?logo=netlify&logoColor=white)](https://splendid-conkies-6d7005.netlify.app)
 
 ## 🎨 Tailwind Design Tokens
 
